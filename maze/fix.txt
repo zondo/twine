@@ -1,0 +1,8 @@
+Replace
+
+	(set: _img to '<center>' + _img + '</center>')
+	(print: _img)
+
+with
+
+        (align:"=><=")+(box:"X")[(print: _img)]
