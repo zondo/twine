@@ -1,3 +1,6 @@
 # My Twine Games
 
-This is a selection of [Twine](https://twinery.org) games.
+Here's a few games I've created using [Twine](https://twinery.org):
+
+* [Paranoia](paranoia/paranoia.html)
+* [Maze](maze/maze.html)
