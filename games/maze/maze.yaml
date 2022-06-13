@@ -1,0 +1,1380 @@
+rooms:
+  - number: 01
+    type: path
+
+    intro: ...the entrance hall of the Maze.
+
+    text: |-
+      They looked carefully at the bronze doors, trying to choose.  The
+      uncertainty of visitors is one of my little pleasures.
+
+      "It's easy to get lost," I said helpfully.  "This can be a sinister
+      place."  The sun glared at me through the gateway.
+
+      Something was ringing behind one of the doors.  They spent some time
+      trying to decide which door it was, not understanding that the
+      silences of the Maze are as eloquent as the sounds.
+
+      "Decisions, decisions," one said.  "Too many decisions."
+
+      "The story of my life," said another.
+
+      "We don't want to be late," said a third, opening one of the doors.
+
+      "Nary a soul to be seen," said the first, peering into the gloom.
+
+      I waited patiently for them to choose which was to go... into...
+
+    links:
+
+      - dir: 21
+        map: 572,378,574,78,565,78,564,35,512,40,514,75,503,80,499,339
+
+      - dir: 41
+        map: 419,298,421,85,430,82,429,56,470,50,471,78,481,81,480,328
+
+      - dir: 20
+        map: 247,290,246,80,213,81,213,54,153,55,152,80,125,82,123,261,150,264,162,251,165,243,177,242,177,250,184,263,217,266,216,287
+
+      - dir: 26
+        map: 277,285,277,82,316,81,311,55,369,55,371,82,399,85,403,290
+
+  - number: 02
+    type: path
+
+    intro: ...a bright room whose walls were in some disrepair.
+
+    text: |-
+      The floorboards creaked and groaned; the plaster made a gritty sound.
+      They studied the old frescoes for clues but missed the obvious signs.
+
+      "Are we on the right path?" they asked.
+
+      Keeping in mind what a relative term "right" is, I assured them they
+      were, indeed, on the right path.  As for the "correct" path of the
+      "most appropriate" path...  Well, that might be something else.
+
+      Full of confidence now they marched out to...
+
+    links:
+
+      - dir: 29
+        map: 43,382,35,212,33,141,48,99,53,52,101,58,101,103,112,140,113,330
+
+      - dir: 22
+        map: 225,296,225,167,236,125,253,107,248,72,329,72,330,99,354,135,361,287
+
+      - dir: 12
+        map: 481,344,480,199,483,121,484,101,476,55,514,44,525,84,536,110,540,378
+
+  - number: 03
+    type: loop
+
+    intro: ...an entirely different kind of place.
+
+    text: |-
+      The group complained of feeling "all turned around," as well they
+      might.
+
+      Because no one wanted to stay here very long they missed the real
+      sign while looking through the obvious.  People in their situation,
+      confronted with a challenge, tend to accept the terms of the
+      challenge as a given, without examining it from all sides.  How many
+      sides does that problem have?  They don't know.
+
+      We passed down a long flight of stairs, through some sort of pantry,
+      and on into...
+
+    links:
+
+      - dir: 33
+        map: 20,411,19,67,7,12,61,22,76,68,68,362
+
+      - dir: 09
+        map: 312,277,315,78,325,75,328,36,401,37,402,76,400,269,399,277
+
+      - dir: 18
+        map: 489,331,489,72,494,22,559,9,544,74,534,366
+
+  - number: 04
+    type: path
+
+    intro: ...the great hall of many doors.
+
+    text: |-
+      "What a foolish face," I snorted.  "Pay no attention."
+
+      A sound made them all turn suddenly.  A small black cat ran out of a
+      door to my right, sniffed at us, and, before I could move, ran out of
+      the hall.  It was fortunate that I was still standing with the rest
+      of them or they might have noticed.
+
+      Faint voices came down one of the corridors.
+
+      "Shall we toss a coin?" I asked.  "Or have you made up your minds?"
+
+      They hadn't made up their minds, and they had no coins.  By a process
+      of elimination they decided to go to...
+
+    links:
+
+      - dir: 29
+        map: 152,334,150,124,161,66,194,78,188,282,168,290,167,330
+
+      - dir: 15
+        map: 204,304,203,125,211,85,226,93,227,116,224,289
+
+      - dir: 11
+        map: 260,266,265,102,321,102,315,265
+
+      - dir: 16
+        map: 357,294,360,116,359,89,369,85,380,110,380,305
+
+      - dir: 24
+        map: 399,320,398,102,394,76,420,62,434,101,435,339,432,345
+
+      - dir: 43
+        map: 472,382,475,92,466,47,542,15,555,74,554,419
+
+  - number: 05
+    type: path
+
+    intro: ...the tree room.
+
+    text: |-
+      "Are these real?" they asked.
+
+      I told them the trees were as real as anything else in the House.  As
+      this was an important decision I encouraged them to take their time.
+      After all, the more they think about the possibilities the more
+      choices they have to make.  What were their chances of choosing
+      wisely... one in four?  Two in four perhaps, if I was generous about
+      it... and why not be generous?  There are one hundred ninety doors in
+      this part of the House, counting the gate... enough for everyone.
+
+      Making a choice, they entered a very long, dark corridor and at last
+      came out into...
+
+    links:
+
+      - dir: 43
+        map: 108,250,107,153,101,126,104,91,48,85,39,124,38,267
+
+      - dir: 22
+        map: 170,285,173,154,184,118,187,85,245,83,251,92,250,117,254,138,252,284
+
+      - dir: 30
+        map: 358,286,358,270,339,261,346,220,340,207,338,144,338,116,351,79,397,90,394,287
+
+      - dir: 20
+        map: 461,289,463,151,470,131,477,95,524,92,523,130,544,166,542,290
+
+  - number: 06
+    type: trap
+
+    intro: ...a gloomy, cavelike place far underground.
+
+    text: |-
+      Even I was oppressed by the weight that hung over our heads.  A very
+      small hole, high above, admitted a feeble light.
+
+      Standing in the light one of them put his hand out.  "I think it may
+      be raining out there..."
+
+      They didn't like the look of the place.
+
+      "You continue to judge everything by the way it looks!" I cried,
+      exasperated by their timidity.  I knew I shouldn't have said
+      anything.  If you think of all the deceptions practiced in my family,
+      particularly on my father...
+
+      We went down the only way open to us and came to...
+
+    links:
+
+      - dir: 40
+        map: 12,428,29,203,31,179,83,138,106,101,166,132,149,182,130,257,82,404
+
+  - number: 07
+    type: loop
+
+    intro: ...a pleasant room with three doors and a lamp.
+
+    text: |-
+      Looking at the picture on the wall they decided it wasn't a very good
+      likeness.
+
+      One of them almost fell over something on the floor.  "Why don't they
+      pick up after themselves?" he said, sounding like an old man.
+
+      "Weren't you ever irresponsible?" I asked, thinking of my childhood
+      and how wild I had been.
+
+      Music was being played somewhere nearby.  We stopped to listen for a
+      moment.  Leaving the pictures looking out at an empty room we went on
+      to...
+
+    links:
+
+      - dir: 33
+        map: 56,378,55,116,61,85,61,6,118,16,116,82,121,131,122,331
+
+      - dir: 36
+        map: 255,300,241,302,243,90,253,54,251,24,325,23,326,55,337,88,334,302
+
+      - dir: 16
+        map: 475,337,461,334,460,85,464,52,468,15,515,6,518,47,529,93,522,223,495,304,512,320
+
+  - number: 08
+    type: path
+
+    intro: ...a vaulted chamber lit by a single bulb.
+
+    text: |-
+      Someone knocked a bowl off the table.  The crash echoed from the
+      ceiling and whispered away down the corridors.  I broke another on
+      purpose.
+
+      "Make sure to take that with you," I said.  "You can never tell when
+      you might need it."
+
+      "Take what?" they wanted to know.
+
+      "Isn't it obvious?"
+
+      Taking a vote among themselves they went on to...
+
+    links:
+
+      - dir: 31
+        map: 175,421,92,245,88,216,65,162,3,170,6,245,108,470,126,469,133,434,149,434
+
+      - dir: 06
+        map: 222,359,144,192,144,145,162,144,185,183,190,206,214,251,244,318
+
+      - dir: 29
+        map: 303,303,254,187,247,161,233,124,294,94,313,129,328,155,378,268
+
+      - dir: 12
+        map: 444,253,381,109,370,96,349,62,368,46,402,72,429,120,489,256
+
+  - number: 09
+    type: loop
+
+    intro: ...what appeared to be an old storeroom.
+
+    text: |-
+      Dust obscured a damaged painting making it hard to understand just
+      what the artist had intended.
+
+      "This could be a trick of some sort," one said.  "We might be going
+      around in circles."
+
+      "I don't think so," said the thoughtful one.  "I think we're supposed
+      to think it's a trick... that's the trick."
+
+      They all looked at me.  "Yes," I said.  "I'm sure you're right about
+      that."  With doubtful looks they left for...
+
+    links:
+
+      - dir: 03
+        map: 47,397,49,159,56,130,56,103,103,124,104,143,108,358
+
+      - dir: 18
+        map: 388,319,387,155,410,154,410,119,475,121,477,155,487,156,487,321
+
+  - number: 10
+    type: loop
+
+    intro: ...a room that smelled of paint.
+
+    text: |-
+      Faint voices, apparently in an argument, came from behind the locked
+      door.
+
+      "You know," said one, "that sounds like us in there..."
+
+      They tried the door but, naturally, it wouldn't open.  The voices
+      stopped when the doorknob rattled.
+
+      One picked up the umbrella.  "It may rain where we're going."
+
+      I signaled my approval and, after a short rest, we came to...
+
+    links:
+
+      - dir: 34
+        map: 25,88,27,35,90,33,101,92,102,274,25,287
+
+      - dir: 41
+        map: 319,316,313,67,311,37,347,34,364,62,374,94,369,339
+
+      - dir: 14
+        map: 447,379,443,68,435,24,496,23,516,99,513,407
+
+  - number: 11
+    type: trap
+
+    intro: ...an airy room with many doors.
+
+    text: |-
+      It was a big space, but I still felt crowded.  I've always hated
+      confinement.  "Whatever you do," I warned them, "don't touch that!"
+
+      "This must be an important room," said one of them.  "It has more
+      doors than any of the others..."
+
+      This was not true, but I didn't want to interrupt.
+
+      "With so many paths crossing here we must be close to the center,"
+      she continued.
+
+      I had noticed this guest before; I would have to be careful.  "This
+      is an important choice," I said, trying to encourage them.
+
+      Gratefully leaving the room behind we walked all the way to...
+
+    links:
+
+      - dir: 40
+        map: 75,308,75,152,151,156,151,308
+
+      - dir: 24
+        map: 434,310,433,155,505,154,506,310
+
+  - number: 12
+    type: path
+
+    intro: ...a spacious room with a hole in the floor.
+
+    text: |-
+      A ladder led down into the shadows.  Outside, leaves shook in the
+      wind.  They didn't like the look of that hole in the floor.
+
+      "Too dark down there!" they cried.  "Who knows what's at the bottom."
+      They looked at me again.
+
+      "Probably a room of some kind," I volunteered quickly.  "But you know
+      what I say about appearances." It would have been a relief to get
+      outside for a while.
+
+      They wanted to know if they had been here before... How could I
+      answer that?  "I have the strangest feeling of deja vu," said one
+      who, bolder than the rest, led us into...
+
+    links:
+
+      - dir: 02
+        map: 68,380,61,42,93,41,100,13,125,18,133,49,129,333
+
+      - dir: 21
+        map: 221,290,228,81,266,81,261,32,316,28,321,85,362,87,361,289
+
+      - dir: 08
+        map: 461,333,451,81,459,40,465,18,482,16,494,30,503,88,522,110,512,370
+
+      - dir: 39
+        map: 214,393,224,361,205,310,258,297,271,321,339,325,372,387
+
+  - number: 13
+    type: loop
+
+    intro: ...room Thirteen.
+
+    text: |-
+      They weren't really comfortable here and I knew why.  "No, no," they
+      said.  "We're not all superstitious."
+
+      "Only some of you, then?"
+
+      They were worried it might be Friday.  Well it's true that is was
+      closer to the end of the week than they realized.  It takes a great
+      deal of experience, certainly more than they possessed, to understand
+      how time works in the Maze.  The clock thought it was six in the
+      evening.
+
+      Quickly moving on we came to...
+
+    links:
+
+      - dir: 27
+        map: 34,376,6,74,18,49,23,5,89,14,89,62,103,105,97,335
+
+      - dir: 18
+        map: 247,270,249,84,252,46,349,45,359,114,350,298,253,299
+
+      - dir: 25
+        map: 502,346,493,98,510,71,511,22,557,1,580,2,581,48,586,83,563,385
+
+  - number: 14
+    type: loop
+
+    intro: ...one of the biggest rooms in the House.
+
+    text: |-
+      All three doorways were dark.
+
+      "Afraid to go out?" I asked.
+
+      Since they tried to think of themselves as adults, they didn't care
+      for my question.
+
+      "Not really," said the thoughtful one, "but that doesn't mean we have
+      to go running around out there just to prove something to you."
+
+      I knew she would bear watching.
+
+      "Choose then!" I cried, as if my feelings were hurt.  "Pay no
+      attention to anything I say." I knew they couldn't afford not to
+      listen to me entirely... they were so easily led.
+
+      Turning around, the group took a path that completely surprised me
+      after all, and I followed them to...
+
+    links:
+
+      - dir: 10
+        map: 34,344,38,243,20,204,86,175,118,234,112,353
+
+      - dir: 43
+        map: 254,319,259,230,275,157,348,156,355,204,354,352,310,349,286,324
+
+      - dir: 24
+        map: 481,345,481,238,488,219,465,210,491,155,560,166,546,213,572,248,571,343
+
+  - number: 15
+    type: path
+
+    intro: ...room number 15.
+
+    text: |-
+      Just as we entered I heard a thump and the sound of footsteps
+      hurrying away.  Somewhere a door slammed.  "At least three of us can
+      sit down here," said one.  There were only three possible choices.
+
+      Leaning on the sacrificial tripod I was suddenly moved to say,
+      "Perhaps these numbers relate to each other in some specific
+      combination..."  Immediately I regretted this act of
+      charity... sometimes I think, after all these years, that I don't
+      really know myself.
+
+      One of them thought he had worked it out and, very pleased with
+      himself, led us into...
+
+    links:
+
+      - dir: 30
+        map: 163,283,163,92,254,95,255,329,216,325,202,292
+
+      - dir: 37
+        map: 342,331,344,88,433,91,432,330
+
+      - dir: 03
+        map: 458,391,458,130,494,132,496,84,546,76,551,258,521,345,549,361,543,408
+
+  - number: 16
+    type: loop
+
+    intro: ...a stone chamber which reminded me of my old neighbors.
+
+    text: |-
+      Of course, that was a long time ago now, but would you believe their
+      decendants are still telling stories about me and my family to their
+      children?
+
+      Even if most of the stories are lies and exaggerations, it is
+      immortality of a sort.
+
+      As I passed in front of an open doorway a figure, crossing the hall
+      outside, saw me and immediately ran off.
+
+      "Who was that?" they asked.
+
+      "Another visitor, to be sure."
+
+      "Why did he run away?"
+
+      "You probably scared him," I said, and they apparently believed me.
+      With few regrets on my part we left for...
+
+    links:
+
+      - dir: 36
+        map: 23,397,21,138,42,10,79,22,94,135,100,340
+
+      - dir: 07
+        map: 496,335,497,116,511,19,550,2,574,86,570,390
+
+  - number: 17
+    type: path
+
+    intro: ...a room with a floor of sand.
+
+    text: |-
+      "Amphorae," I pronounced; empty, of course.
+
+      "This is an easier choice to make," they said.
+
+      "You may think so," I muttered to myself, "but your choices are more
+      limited than you know."
+
+      One should never accept the obvious here.  If you think of the Maze
+      as a machine, confusion is its product, and the machine was hard at
+      work.  Ignoring my good advice they hurried into...
+
+    links:
+
+      - dir: 06
+        map: 10,420,14,253,24,227,67,222,94,284,81,326,88,374
+
+      - dir: 45
+        map: 232,291,234,49,271,47,271,8,324,7,325,52,355,56,361,292
+
+      - dir: 33
+        map: 474,377,470,204,493,120,493,59,556,41,558,95,580,251,569,417,556,424
+
+  - number: 18
+    type: loop
+
+    intro: ...a much warmer room.  Shadows danced across the floor to fire's music.
+
+    text: |-
+      "Someone's lost his hat."
+
+      "Are you sure it's the hat that is lost?" I asked reasonably enough.
+      No one would answer me.
+
+      Ducking behind a curtain and hurrying down a passageway we came out
+      in...
+
+    links:
+
+      - dir: 13
+        map: 249,320,251,110,272,106,271,67,338,64,339,109,352,114,354,268,336,273,334,321
+
+      - dir: 03
+        map: 481,322,478,108,499,106,500,63,567,62,566,110,570,313,570,321
+
+  - number: 19
+    type: loop
+
+    intro: ...a shaded portico.
+
+    text: |-
+      A late afternoon sun warmed the rough blocks of stone.
+
+      "Get out of the way!" someone called.  We moved into the yard,
+      squinting at the strong light.
+
+      One of them sat on a marble bench after I politely pushed some
+      flowers aside.  "Did you pick these for me?" she asked, looking me in
+      the eye.  I had to tell her the truth.
+
+      In another part of the grounds someone was singing, but they couldn't
+      make out the words.  Like children they soon became restless and
+      impatient to see something new, so we went on to...
+
+    links:
+
+      - dir: 31
+        map: 133,3,200,20,205,337,175,353,172,328,163,322,125,121
+
+      - dir: 11
+        map: 245,27,288,41,294,98,286,303,273,312,273,292,240,131
+
+  - number: 20
+    type: path
+
+    intro: ...room number Twenty.
+
+    text: |-
+      The ringing stopped as soon as we entered.
+
+      "What is the matter now?" I asked them.
+
+      "Too many animals for a proper house!"
+
+      They walked carefully around the edges of the room.  I watched with
+      an amusement shared, I think, by the wise old tortoise.
+
+      With backwards looks and muttered comments about turtles they left
+      room number Twenty and entered...
+
+    links:
+
+      - dir: 05
+        map: 10,376,13,63,25,58,24,12,67,16,66,59,82,64,80,331
+
+      - dir: 27
+        map: 331,292,325,60,359,62,358,20,410,19,411,60,445,63,439,290
+
+      - dir: 01
+        map: 499,328,494,64,519,59,514,17,559,9,560,56,567,59,567,235,547,240,539,289,516,295,522,358
+
+  - number: 21
+    type: loop
+
+    intro: ...a yard containing shrubs trimmed in ornamental shapes.
+
+    text: |-
+      "This," I began, "is called..."
+
+      "We know what the name is," they interrupted.  "Why don't you just
+      tell us which way to go?"
+
+      "I wasn't referring to the plants," I said in a huff.  I refused to
+      say anything else, leaving them to find their own way to...
+
+    links:
+
+      - dir: 44
+        map: 22,391,17,145,48,145,51,118,103,120,107,150,122,154,124,287,81,302,76,336,101,360,72,386
+
+      - dir: 24
+        map: 296,285,297,165,313,165,312,149,342,152,344,170,357,171,358,281,327,271
+
+      - dir: 31
+        map: 491,307,492,180,507,179,504,165,532,162,535,185,554,194,553,275,523,271,515,306
+
+  - number: 22
+    type: trap
+
+    intro: ...a gaudy room that reminded me of a theatrical backdrop.
+
+    text: |-
+      Places like this are overdone, for my taste, but some people like the
+      exotic... well, everyone is a critic.
+
+      It's true, I am by nature extremely critical.  Although my life is a
+      lonely one I have not spared any of my guests the rigor of my
+      judgment.... We all have our roles to play.
+
+      This is not a bad place, really; one could spend quite some time
+      here.  However, in their restive way, the group moved on to...
+
+    links:
+
+      - dir: 43
+        map: 120,336,117,145,133,129,134,95,156,75,177,101,180,134,195,150,197,309
+
+      - dir: 38
+        map: 385,310,382,146,401,127,402,95,422,76,451,93,452,135,457,152,454,336
+
+  - number: 23
+    type: path
+
+    intro: ...a room with three other doors.
+
+    text: |-
+      Looking out the windows my feet crushed something on the floor.
+
+      "Watch your step here," I warned them.  I'm always ready to be
+      helpful with the less important things.
+
+      "Look at those two trees out there," one said, looking over my
+      shoulder, which is not easy to do.
+
+      "Must be a real wind coming up."
+
+      Now they realized that it could rain where they were going.
+
+      "We should have brought that bumbershoot with us from the coat
+      room..."
+
+      "Which room was that?"
+
+      "You remember, the one with the animal..."
+
+      I suggested that we take the door on my right and they realized they
+      had found the door they had been seeking for so long, the entrance
+      to...
+
+    links:
+
+      - dir: 28
+        map: 10,312,10,116,29,118,30,70,87,71,88,115,106,118,107,202,95,219,103,313,55,312,33,324
+
+      - dir: 08
+        map: 166,302,171,118,193,117,192,67,234,67,236,115,258,117,257,311
+
+      - dir: 45
+        map: 319,307,322,117,340,116,339,70,387,71,387,115,412,117,413,308
+
+      - dir: 19
+        map: 464,322,464,96,498,92,495,64,551,65,553,84,579,84,575,381
+
+  - number: 24
+    type: trap
+
+    intro: ...a place of unlimited darkness.
+
+    text: |-
+      "Where are the doors?" they asked nerviously.  "We can't see any
+      doors..."
+
+      "Be careful where you step!" said a cold voice.  "This spot is
+      taken."  Dozens of eyes blinked at us in the Stygian gloom.
+
+      By the time my uncertain visitors turned to ask me what to do I was
+      already far away.
+
+      "There are no doors," said the voice.  "You are here with the rest of
+      us now..."
+
+      Even my bellowing laughter couldn't fill this space.
+
+  - number: 25
+    type: loop
+
+    intro: ...a high room with the image of a crown on the wall for everyone to see now.
+
+    text: |-
+      Though one of my parents might be lowborn, the other was close to a
+      king... I've always felt at home here.
+
+      "Which door ought we take?" they wanted to know.  I rather brusquely
+      indicated the three doors.
+
+      "Any of those is fine for my purposes."
+
+      They were disconcerted at the apparent lack of clues.  "Perhaps in
+      another room," they said, leaving for...
+
+    links:
+
+      - dir: 34
+        map: 17,368,17,175,3,130,103,126,133,180,128,369
+
+      - dir: 13
+        map: 167,367,163,181,168,135,257,114,278,182,274,369
+
+      - dir: 35
+        map: 458,371,456,185,481,117,577,119,561,182,560,368
+
+  - number: 26
+    type: path
+
+    intro: ...a dramatic room with four entrances and exits.
+
+    text: |-
+      "Not enough light in here," they remarked.  "Not very tidy either."
+
+      "Which way now, children?" I asked in my most patronizing voice.
+
+      They objected to my tone, but it distracted them from the real clues.
+      The game usually goes as I plan it, despite the intentions of my
+      visitors, or perhaps because of their intentions.
+
+      "What the devil is this supposed to be?" one asked.  They gathered
+      around and I realized they were close to something.  I quickly picked
+      up the bell, ringing it loudly.
+
+      "Was this what you heard outside?"
+
+      Holding their ears they ran out the door to...
+
+    links:
+
+      - dir: 30
+        map: 33,310,33,118,68,57,94,133,92,295
+
+      - dir: 36
+        map: 123,287,122,139,153,82,214,109,218,145,220,290
+
+      - dir: 38
+        map: 365,242,366,120,406,75,448,114,450,270,430,250,400,265
+
+      - dir: 01
+        map: 485,294,486,134,494,84,508,61,544,125,541,309
+
+  - number: 27
+    type: loop
+
+    intro: ...a darkened chamber dominated by a large figure.
+
+    text: |-
+      We could see that someone had been working here recently; the
+      entrance I had so carefully hidden had been uncovered.  I made a note
+      to return as soon as I could and fill in the hole again.
+
+      The visitors were so intrigued with the entrance at the bottom of the
+      excavation that they ignored what the figure was trying to tell them.
+
+      "Where are the workmen?"
+
+      "They must be ahead of us," I said.  "If we hurry we can catch
+      them... I mean catch up with them."
+
+      I herded the group through the door to...
+
+    links:
+
+      - dir: 13
+        map: 70,392,70,119,101,71,148,75,148,121,143,341
+
+      - dir: 09
+        map: 250,370,259,313,328,304,342,370,310,419,288,419
+
+  - number: 28
+    type: path
+
+    intro: ...a spacious room with a hole in the floor.
+
+    text: |-
+      A ladder led down into the shadows.  Outside, leaves shook in the
+      wind.  They didn't like the look of that hole in the floor.
+
+      "Too dark down there!" they cried.  "Who knows what's at the bottom."
+      They looked at me again.
+
+      "Probably a room of some kind," I volunteered quickly.  "But you what
+      I say about appearances." It would have been a relief to get outside
+      for a while.  They wanted to know if they had been here before...
+      How could I answer that?
+
+      "I have the strangest feeling of deja vu," said one who, bolder than
+      the rest, led us into...
+
+    links:
+
+      - dir: 23
+        map: 67,384,58,93,82,82,90,19,131,28,126,85,127,337
+
+      - dir: 43
+        map: 222,300,220,92,261,85,260,35,313,31,314,85,357,96,349,295
+
+      - dir: 45
+        map: 461,337,455,91,453,24,492,15,499,88,520,102,514,380
+
+      - dir: 32
+        map: 208,397,218,368,203,318,253,303,282,325,338,332,368,400
+
+  - number: 29
+    type: path
+
+    intro: ...a much smaller room.
+
+    text: |-
+      A person with a white staff turned to face us.  His associate
+      shrugged, not an easy thing to do in his position, and went back to
+      what he had been doing.
+
+      "Look, look," said the person with the staff.  "This is very
+      important..."
+
+      I snatched the paper from his hand and tore it into pieces.
+
+      "How will he find his way without directions?" the group wanted to
+      know.
+
+      "Don't worry," said the man, "here blindness is no disadvantage."
+
+      I hurried my visitors out as quickly as I could to...
+
+    links:
+
+      - dir: 40
+        map: 109,329,107,76,150,71,150,265,128,273,123,317
+
+      - dir: 08
+        map: 27,434,23,85,78,80,83,364
+
+      - dir: 35
+        map: 323,227,323,71,415,73,416,228,397,222,399,187,383,168,366,183,355,233
+
+      - dir: 02
+        map: 430,279,436,71,479,75,475,321
+
+      - dir: 17
+        map: 216,325,249,236,335,234,364,300,334,302,337,325,312,321,312,307,275,306,276,323
+        invis: true
+
+  - number: 30
+    type: path
+
+    intro: ...room number Thirty.
+
+    text: |-
+      "What a beautiful door...the others are so plain," said one.
+
+      "It's meant to influence our decision," said another.
+
+      "Perhaps this has been done so we will not choose this door," said
+      the thoughtful one.
+
+      They wanted to know what the letters meant.  Obviously they meant
+      something, and I said so.
+
+      "Yes, but... why 'O' and 'U'?  What special significance can they
+      have for us?"
+
+      The more confused they became, the more I enjoyed it.  No matter how
+      many times I've been through this I'm always fascinated.
+
+      Leaving the room and all that it contained behind us, we entered...
+
+    links:
+
+      - dir: 42
+        map: 90,326,91,15,135,28,130,299
+
+      - dir: 34
+        map: 232,158,235,50,279,11,317,11,357,60,361,250,349,252,349,285,319,285,315,222,271,159
+
+      - dir: 05
+        map: 463,300,464,25,502,16,494,322
+
+      - dir: 15
+        map: 527,361,530,6,565,1,587,3,580,403
+
+  - number: 31
+    type: loop
+
+    intro: ...a melancholy little courtyard surrounded by a brick wall too high to see over.
+
+    text: |-
+      A dead tree lifted its bone-white branches to a sky filling with gray
+      clouds.
+
+      "Those doors look very strange," they said.
+
+      "You should say, 'They look very strangely,'" I corrected.
+
+      "They seem to be watching us..."
+
+      A sudden gust of wind made the branches clatter against each other
+      like old boards.  Dead leaves began to gather at our feet.
+
+      Shivering in the wind we managed to push open one of the heavy doors
+      and make our way to...
+
+    links:
+
+      - dir: 44
+        map: 40,390,42,119,80,102,112,130,119,149,118,378
+
+      - dir: 19
+        map: 200,360,198,158,231,138,265,176,259,342
+
+      - dir: 21
+        map: 478,374,477,148,512,102,563,131,557,392
+
+  - number: 32
+    type: path
+
+    intro: ...a large square room with a hole rudely broken through one wall.
+
+    text: |-
+      It must have taken a great deal of strength to pull the heavy stones
+      out of position.
+
+      The symmetry was also disturbed by the apparent loss of one of the
+      room's statues.  My visitors thought a thief had broken into the
+      room, removed the figure, and made away with it.  This, of course,
+      was one explanation.
+
+      "Another one!" they cried.
+
+      "You mean another representative of the animal kingdom?" I asked.
+
+      "What is a bird like that doing here?"
+
+      "Roosting, evidently." Their attitude was really beginning to
+      irritate me.  I have come to think of all the inhabitants of this
+      House as members of my little kingdom.  People can be so
+      arrogant... in a very real way we are all animals, at least in part.
+
+      I wouldn't answer any more of their questions so we left this room to
+      enter...
+
+    links:
+
+      - dir: 11
+        map: 11,385,7,291,29,213,37,110,93,111,101,258,85,351,35,387
+
+      - dir: 06
+        map: 222,275,219,117,267,116,274,65,325,65,331,114,369,123,361,285,341,308,270,306,242,259
+
+      - dir: 28
+        map: 530,388,536,166,592,170,589,428
+
+      - dir: 16
+        map: 436,460,160,463,168,408,149,286,194,247,216,340,403,347,426,387
+
+  - number: 33
+    type: loop
+
+    intro: ...the room with no floor.
+
+    text: |-
+      They crowded each other on the narrow ledge.
+
+      The bold one ventured out to the center.
+
+      Realizing that they could see all of the signs only from the center
+      of the room, several wanted to turn back.
+
+      With exaggerated caution, considering their predicament, they finally
+      reached the door they wanted and eventually found themselves in...
+
+    links:
+
+      - dir: 03
+        map: 41,426,42,135,90,15,110,131,118,358
+
+      - dir: 35
+        map: 332,327,333,122,389,34,446,120,451,324
+
+      - dir: 07
+        map: 485,366,485,125,510,20,540,138,541,424
+
+  - number: 34
+    type: loop
+
+    intro: ...a middle-class drawing room or parlor.
+
+    text: |-
+      It was amazing how much more comfortable they felt in these
+      surroundings.
+
+      Everyone sat down, some on the floor, and chatted about where they
+      had been and where they should go.
+
+      "Magpies!" I said to myself.  "Not a real thought in their heads."
+
+      They were so much at ease they almost missed what the room was
+      telling them altogether.  They finally got the message, which I
+      thought was pretty obvious, and we went on to...
+
+    links:
+
+      - dir: 10
+        map: 14,298,11,61,24,56,23,4,68,13,80,55,82,119,128,121,127,395,108,399,112,311
+
+      - dir: 25
+        map: 150,308,148,65,164,64,170,36,219,18,228,64,254,68,257,309
+
+  - number: 35
+    type: loop
+
+    intro: ...what appeared to be someone's basement.
+
+    text: |-
+      One of them sank gratefully down on an old couch which prompty
+      collapsed.
+
+      I tried to hide my smile.
+
+      "A totem, or tribal fetish," said one, walking around the center of
+      the room.
+
+      "It could be a work of art," suggested another.
+
+      "Perhaps it's a signal to us," the thoughtful one said.  "A warning
+      or direction?"
+
+      "Not much help when there is only one way to go," put in another.
+
+      "I still think it's a signal."
+
+      "Yes," I said right away, "I'm sure you're right."
+
+      She was immediately suspicious.  Still, with no real choice to make,
+      we left the thing standing alone in light and silence, and went
+      into...
+
+    links:
+
+      - dir: 33
+        map: 21,276,22,68,130,70,132,284
+
+  - number: 36
+    type: loop
+
+    intro: ...an old and ruinous part of the House.
+
+    text: |-
+      Turning a corner the music we had been hearing became louder and at
+      last we saw the musicians themselves.  They were so involved they
+      failed to hear us.  The music was suited to the scene -a moody,
+      romantic melody.  We stopped to listen and I admit that I, too, was
+      affected by the sound as well as by the spectacle of the masked
+      players.
+
+      One of the visitors noticed me listening.  "Beautiful music, don't
+      you think?"  "It's not bad," I said stiffly.  "The viol brings the
+      right sense of warmth to the piece, but the guitarist is overplaying
+      his part.  Still, he adds a certain plangent brio to an otherwise
+      introspective composition..."  Unwilling to interrupt the concert we
+      slipped past the musicians into the door to...
+
+    links:
+
+      - dir: 07
+        map: 18,403,16,138,31,93,34,15,73,22,74,91,89,133,91,327
+
+      - dir: 16
+        map: 153,279,158,142,170,105,161,66,161,40,222,42,219,64,247,135,244,198,233,224,238,257,237,289,175,285
+
+  - number: 37
+    type: path
+
+    intro: ...a long, open room with no roof.
+
+    text: |-
+      "What is going on here?" they wondered.
+
+      "Sometimes, important messages are couched in ambiguous terms," I
+      said.  "That net may help you catch the answer to your question."
+
+      They looked doubtful.  "We must look at this from all sides before we
+      make a decision." At last, they were learning.
+
+      They really couldn't decide which way to go; half of them wanted to
+      go one way, half another.  They were close to splitting up when there
+      was a rattling sound and one of the doors was shaken from the other
+      side.
+
+      They all stopped talking and moved closer together.  They soon agreed
+      on a direction and we departed for...
+
+    links:
+
+      - dir: 15
+        map: 18,213,15,73,45,45,81,45,124,98,122,199,95,183,78,205,69,248
+
+      - dir: 10
+        map: 163,292,160,104,183,53,234,47,275,96,273,192,248,194,231,237,235,296
+
+      - dir: 42
+        map: 312,297,306,94,330,50,386,42,429,100,422,222,392,160,327,302
+
+      - dir: 20
+        map: 455,268,458,94,481,51,532,46,576,105,574,292,524,291,522,275,478,262
+
+  - number: 38
+    type: trap
+
+    intro: ...a narrow space where one wall boasted half-finished carving and another some sort of carnival poster.
+
+    text: |-
+      There was a little confusion as we made our entrance but we soon
+      sorted ourselves out.
+
+      It was impossible to climb up the slippery slide and another door
+      wouldn't open for us, so after emptying the pebbles from our shoes,
+      we marched on to...
+
+    links:
+
+      - dir: 40
+        map: 252,65,371,67,378,102,369,119,368,301,267,299,269,121,254,100
+
+      - dir: 22
+        map: 430,305,428,79,475,66,462,335
+
+      - dir: 43
+        map: 512,366,505,54,575,37,572,415
+
+  - number: 39
+    type: path
+
+    intro: ...what looked like a combination wine cellar and junk room.
+
+    text: |-
+      Someone had been working here as well.
+
+      "This is more to my taste," said one, dusting off some labels.  All
+      the bottles turned out to be empty.
+
+      "I hear someone hammering," said one.
+
+      "No, that's a chopping sound," said another.
+
+      None of them heard the faint jingling that came from behind the wall.
+      "I don't hear anything," I said loudly and, with as much commotion as
+      possible, hurried them out of the room to...
+
+    links:
+
+      - dir: 11
+        map: 27,281,23,38,78,36,88,154,76,155,76,282
+
+      - dir: 04
+        map: 136,251,134,43,173,43,180,246
+
+      - dir: 12
+        map: 402,256,404,40,447,38,447,247,423,256,423,271
+
+  - number: 40
+    type: trap
+
+    intro: ...the foundation of the Maze.
+
+    text: |-
+      Deep underground stones had been carved and fitted; passages opened
+      in the natural rock.
+
+      "These symbols are quite unusual," said one.  "They seem to be
+      primitive signs..."
+
+      "Do you know what signs?" I asked him.
+
+      "Oh, you know... wind and water, hills and planets."
+
+      It was surprising that he could identify any of the symbols, but I
+      was relieved that he couldn't read them correctly.
+
+      Choosing more or less at random they went through a passageway to...
+
+    links:
+
+      - dir: 11
+        map: 0,431,1,69,8,35,94,65,85,130,83,407
+
+      - dir: 06
+        map: 164,390,166,192,169,113,238,96,238,371
+
+      - dir: 38
+        map: 327,307,322,109,368,126,367,166,380,209,379,273
+
+  - number: 41
+    type: loop
+
+    intro: ...a room with a special piece of furniture I thought might appeal to my guests.
+
+    text: |-
+      "How can we trust that thing?" one remarked.  "Who knows where it
+      ends up..."  I knew naturally, but that wasn't the point.  They were
+      pretty sure of themselves, and went right on to...
+
+    links:
+
+      - dir: 01
+        map: 52,347,52,157,41,92,52,0,100,4,103,108,101,318
+
+      - dir: 35
+        map: 123,299,123,227,166,220,172,1,215,1,205,290,185,301
+
+      - dir: 10
+        map: 230,273,229,104,254,72,254,27,326,25,325,63,348,105,348,273
+
+      - dir: 38
+        map: 383,332,430,215,472,210,472,81,478,47,471,7,490,1,525,2,525,39,538,109,535,239,494,364,459,361,406,355
+
+  - number: 42
+    type: path
+
+    intro: ...the next room.
+
+    text: |-
+      In one corner a savage animal appeared ready to leap out, roaring,
+      rending with tusk and claw...but it was only a bit of taxidermy after
+      all.
+
+      I suggested they might wish to hang up their coats before going on.
+
+      "How will we find them?" one asked.  "We might not pass through here
+      again."  I assured them I would help them to return.  "You can count
+      on me," I said sincerely.  Still, they wouldn't leave anything
+      behind.  Opening one of the doors we made our way to...
+
+    links:
+
+      - dir: 22
+        map: 17,430,19,4,77,12,84,377
+
+      - dir: 30
+        map: 109,347,107,28,147,39,151,234,124,233
+
+      - dir: 04
+        map: 210,292,218,233,211,203,214,46,285,50,295,101,298,294
+
+      - dir: 25
+        map: 340,297,342,96,349,53,425,49,432,100,430,297
+
+      - dir: 37
+        map: 478,299,482,96,488,51,567,50,572,108,565,133,570,166,572,293
+
+  - number: 43
+    type: trap
+
+    intro: ...a great hall dominated by the entrance to room Twenty-Two.
+
+    text: |-
+      The face over the door had a sly look.
+
+      "Is it good or bad to have only two choices?" they wanted to know.
+      It was, predictably enough, neither "good" nor "bad. " These people
+      just didn't know how to phrase a meaningful question.  You have to be
+      very particular in this House.  We went on to...
+
+    links:
+
+      - dir: 22
+        map: 220,277,221,38,260,30,266,5,307,3,307,31,347,37,339,279
+
+      - dir: 38
+        map: 204,411,334,413,352,400,328,311,310,306,273,306,236,322
+
+  - number: 44
+    type: loop
+
+    intro: ...a courtyard of palms and statues.
+
+    text: |-
+      The trees waved to each other in the breeze.
+
+      "Who left the door open?" they wanted to know.
+
+      "We came in that way," I offered, but they were convinced we had
+      entered by another door entirely.
+
+      They vanished through the wall and I followed them to...
+
+    links:
+
+      - dir: 21
+        map: 169,147,193,110,230,109,257,142,259,302,173,304
+
+      - dir: 18
+        map: 456,300,451,137,481,111,511,111,536,146,532,308,461,310
+
+  - number: 45
+    type: path
+
+    intro: ...the room at the center of the Maze.
+
+    text: |-
+      My guests thought that whoever lived here was a careless person, to
+      leave so many things around.  They were wrong.
+
+      There was really only one thing for them to find: the Riddle of the
+      Maze.  They demanded that I show it to them.
+
+      "Do you think it is written on the wall for all to see?  It is hidden
+      here, somewhere, perhaps throughout the room.  As far as you are
+      concerned, what the Maze teaches can be learned in every room."
+
+      They looked and looked... every group is the same.
+
+      "Now," I said, after a last look around, "we must find our way back
+      out."  Leaving the center of the Maze we found ourselves in...
+
+    links:
+
+      - dir: 28
+        map: 14,267,10,37,73,33,68,262,64,266
+
+      - dir: 17
+        map: 107,270,107,229,117,216,118,144,105,149,102,20,151,19,150,220,131,223,148,276,118,283,118,268
+
+      - dir: 36
+        map: 234,213,234,16,344,19,343,264,323,264,307,264,285,233
+
+      - dir: 19
+        map: 441,272,440,191,433,173,430,14,476,16,480,114,467,114,480,274,477,307
+
+      - dir: 23
+        map: 504,331,501,16,573,18,570,384
