@@ -104,11 +104,17 @@ def twine_links(room, types):
     for link in links:
         onum = int(link["dir"])
         otype = types[onum]
+        invis = link.get("invis", False)
 
         if rtype == otype:
-            yield "[[...room %d->%02d]]" % (onum, onum)
+            text = "[[...room %d->%02d]]" % (onum, onum)
         else:
-            yield '[(link-goto: "...room %d", "%02d")]' % (onum, onum)
+            text = '[(link-goto: "...room %d", "%02d")]' % (onum, onum)
+
+        if invis:
+            text = "<span class='invis'>" + text + "</span>"
+
+        yield text
 
 
 def javascript(links):
