@@ -61,7 +61,7 @@ def room_text(room, types):
     if links:
         yield "{"
 
-        for line in javascript(links):
+        for line in javascript(room, links, types):
             yield line
 
         for line in image_map(num, links):
@@ -98,34 +98,39 @@ def image_ref(room):
 
 
 def twine_links(room, types):
+    for link in room.get("links", []):
+        yield link_text(room, link, types)
+
+
+def link_text(room, link, types):
+    onum = int(link["dir"])
+
     rtype = room["type"]
-    links = room.get("links", [])
+    otype = types[onum]
+    invis = link.get("invis", False)
 
-    for link in links:
-        onum = int(link["dir"])
-        otype = types[onum]
-        invis = link.get("invis", False)
+    if rtype == otype:
+        text = "[[...room %d->%02d]]" % (onum, onum)
+    else:
+        text = '[(link-goto: "...room %d", "%02d")]' % (onum, onum)
 
-        if rtype == otype:
-            text = "[[...room %d->%02d]]" % (onum, onum)
-        else:
-            text = '[(link-goto: "...room %d", "%02d")]' % (onum, onum)
+    if invis:
+        text = "<span class='invis'>" + text + "</span>"
 
-        if invis:
-            text = "<span class='invis'>" + text + "</span>"
-
-        yield text
+    return text
 
 
-def javascript(links):
+def javascript(room, links, types):
     yield "<script>"
 
     for link in links:
         onum = int(link["dir"])
+        text = link_text(room, link, types).replace('"', '\\"')
 
         yield '$(\'area[alt="%02d"]\').on("click", function(e){' % onum
         yield "\te.preventDefault();"
-        yield "\t$(\"tw-link[passage-name='%02d']\").click();" % onum
+        yield "\t$(\"tw-link:contains('%s')\").click();" % text
+        yield '\tconsole.log("clicked");'
         yield "});"
 
     yield "</script>"
