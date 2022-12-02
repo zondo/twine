@@ -1,0 +1,18 @@
+* TODO Convert maze to Harlowe 3
+
+Is it the tw-link function that changed?  Try debugging in inspector window.
+
+The tw-link element has passage-name attr in v2, but not v3.  How can click
+be invoked?  Matching text would work, but it's a mess of quote chars.
+
+* TODO Fix image centering
+
+Replace
+
+	(set: _img to '<center>' + _img + '</center>')
+	(print: _img)
+
+with
+
+        (align:"=><=")+(box:"X")[(print: _img)]
+
